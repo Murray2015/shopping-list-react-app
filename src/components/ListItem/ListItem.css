@@ -1,0 +1,18 @@
+ul {
+  list-style: none;
+}
+li {
+  margin: 1.5rem 0;
+  position: relative;
+  /* display: inline-block; */
+}
+
+li:before {
+  content: " ";
+  background-size: cover;
+  background-image: url("trolley.svg");
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 5rem;
+}
